@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const images = [
+  {
+    url: "https://images.unsplash.com/photo-1524592714635-d77511a4834d",
+    title: "Sunset Landing",
+    description: "Aircraft approaching runway during golden hour"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad",
+    title: "Above the Clouds",
+    description: "View from the cockpit at cruise altitude"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1540962351504-03099e0a754b",
+    title: "Cockpit View",
+    description: "Modern aircraft instrument panel"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1531642765602-5cae668fbc22",
+    title: "Taking Off",
+    description: "Aircraft departing at sunrise"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1521533897111-7f61e0929eef",
+    title: "First Solo",
+    description: "Commemorating the first solo flight"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1608023136037-626dad6c6188",
+    title: "Night Flying",
+    description: "Experience the beauty of night aviation"
+  }
+];
+---
+
+<Layout title="Aviation Gallery - Aviation Dreams">
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold text-center mb-8">Aviation Gallery</h1>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {images.map(image => (
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img 
+            src={image.url}
+            alt={image.title}
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">{image.title}</h3>
+            <p class="text-gray-600">{image.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </main>
+</Layout>

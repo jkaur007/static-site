@@ -1,0 +1,86 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Aviation Dreams - My Journey to Becoming a Pilot">
+  <main>
+    <!-- Hero Section -->
+    <div class="relative h-[500px]">
+      <img 
+        src="https://images.unsplash.com/photo-1559627755-42213a258052"
+        alt="Sunset aviation"
+        class="w-full h-full object-cover brightness-50"
+      />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="text-center text-white">
+          <h1 class="text-5xl font-bold mb-4">My Aviation Journey</h1>
+          <p class="text-xl">Pursuing my dreams of becoming a commercial pilot</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mx-auto px-4 py-12">
+      <!-- About Section -->
+      <div class="grid md:grid-cols-2 gap-12 mb-16">
+        <div class="space-y-6">
+          <h2 class="text-3xl font-semibold">Why I Want to Be a Pilot</h2>
+          <p class="text-lg">Ever since I was young, I've been fascinated by aircraft and the miracle of flight. The dream of becoming a pilot has driven me to pursue aviation with passion and dedication. The feeling of freedom in the sky, the technical challenges, and the responsibility of safely transporting passengers are what motivate me every day.</p>
+          <p class="text-lg">My journey began with countless hours of flight simulator practice, reading aviation books, and studying aerodynamics. Now, I'm taking the next step by pursuing my pilot licenses and ratings.</p>
+        </div>
+        <img 
+          src="https://images.unsplash.com/photo-1464037866556-6812c9d1c72e"
+          alt="Airplane cockpit"
+          class="rounded-lg shadow-lg w-full h-[400px] object-cover"
+        />
+      </div>
+
+      <!-- Goals Section -->
+      <div class="bg-blue-50 rounded-xl p-8 mb-16">
+        <h2 class="text-3xl font-semibold mb-8 text-center">My Aviation Goals</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="text-blue-600 text-4xl font-bold mb-4">1</div>
+            <h3 class="font-semibold mb-2">Private Pilot License</h3>
+            <p>First step into the world of aviation</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="text-blue-600 text-4xl font-bold mb-4">2</div>
+            <h3 class="font-semibold mb-2">Instrument Rating</h3>
+            <p>Master flying in all weather conditions</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="text-blue-600 text-4xl font-bold mb-4">3</div>
+            <h3 class="font-semibold mb-2">Commercial License</h3>
+            <p>Begin my professional aviation career</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="text-blue-600 text-4xl font-bold mb-4">4</div>
+            <h3 class="font-semibold mb-2">Airline Transport</h3>
+            <p>Achieve the highest level of certification</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress Section -->
+      <div class="text-center">
+        <h2 class="text-3xl font-semibold mb-8">Current Progress</h2>
+        <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+          <div class="mb-6">
+            <h3 class="font-semibold mb-2">Ground School Progress</h3>
+            <div class="w-full bg-gray-200 rounded-full h-4">
+              <div class="bg-blue-600 h-4 rounded-full" style="width: 65%"></div>
+            </div>
+            <p class="mt-2 text-gray-600">65% Complete</p>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-2">Flight Hours</h3>
+            <div class="w-full bg-gray-200 rounded-full h-4">
+              <div class="bg-blue-600 h-4 rounded-full" style="width: 30%"></div>
+            </div>
+            <p class="mt-2 text-gray-600">12 out of 40 required hours completed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>

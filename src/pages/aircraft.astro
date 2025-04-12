@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Aircraft Types - Aviation Dreams">
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold text-center mb-8">Aircraft I Want to Fly</h1>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1583064323148-c68c6dea3e95"
+          alt="Cessna 172"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Cessna 172</h2>
+          <p>The perfect training aircraft for beginners. Known for its reliability and forgiving nature, the Cessna 172 is where most pilots begin their journey.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1520437358207-323b43b50729"
+          alt="Boeing 737"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Boeing 737</h2>
+          <p>The backbone of many commercial fleets. My goal is to eventually pilot this versatile aircraft for commercial airlines.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1513131348159-5d9899851b11"
+          alt="Airbus A320"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Airbus A320</h2>
+          <p>A modern fly-by-wire aircraft that represents the future of aviation. Known for its advanced technology and efficiency.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
