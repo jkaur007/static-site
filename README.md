@@ -1,7 +1,8 @@
 # Static Site Project - Personal Interest Site
 
-**Name:** [Your Name]  
-**Student Number:** [Your Student Number]  
+**Name:**jasmine kaur
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6dc93b0a-099e-4b40-b810-26e2fd1c6155/deploy-status)](https://app.netlify.com/sites/dapper-marzipan-19c1ec/deploys)
+
 **Static Site Generator:** Astro v5.2.5
 
 ## Project Overview
